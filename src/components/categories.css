@@ -1,11 +1,54 @@
+.cats input[type="checkbox"],
+.cats .hamburger-lines {
+  display: none;
+}
 
-ul.categories {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  ul.categories li {
-    margin-right: 10px
-  }
+.cats {
+  box-shadow: 0px 5px 10px 0px #aaa;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  opacity: 0.85;
+  height: 50px;
+  z-index: 12;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+}
+
+.menu-items {
+  order: 2;
+  display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.menu-items li {
+  list-style: none;
+  margin-left: 0.5rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.2rem;
+  border-radius: 10%;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+}
+
+.menu-items li:hover {
+  background-color: #f5f5f5;
+}
+
+
