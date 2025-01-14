@@ -1,0 +1,11 @@
+
+ul.categories {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  ul.categories li {
+    margin-right: 10px
+  }
