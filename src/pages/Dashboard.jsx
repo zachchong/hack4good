@@ -11,6 +11,8 @@ function Dashboard() {
           component = "img"
           image = {model_img}
           height = "194"
+          alt = "Sony PS4 Controller"
+          draggable = "false"
         />
         <CardContent>
           <Typography> Sony Cuh-Zct2G Dual Shock4 Wireless Controller, Midnight Blue - Playstation 4 </Typography>
