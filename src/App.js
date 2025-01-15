@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Categories from './components/Categories';
 import Navbar from './components/Navbar';
-
+import Dashboard from './pages/Dashboard';
+import { Divider } from '@mui/material';
 
 
 function App() {
@@ -10,79 +11,7 @@ function App() {
     <div className="App">
       <Navbar /> 
       <Categories />
-      <ul>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-
-      </ul>
+      <Dashboard />
     </div>
   );
 }

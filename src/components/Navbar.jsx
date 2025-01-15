@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css'; 
-import logo from '../logo.svg';  // Adjust path as needed
+import logo from '../main_logo.png';  // Adjust path as needed
 
 function Navbar() {
   return (
