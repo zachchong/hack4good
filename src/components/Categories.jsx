@@ -2,9 +2,6 @@ import './categories.css'
 import {Tabs, Tab, Divider} from '@mui/material/';
 import * as React from 'react';
 
-
-
-
 function Categories() {
   const [value, setValue] = React.useState(0);
 
