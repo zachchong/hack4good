@@ -12,6 +12,8 @@ function App() {
       <Navbar /> 
       <Categories />
       <Dashboard />
+      <Divider />
+      <Dashboard />
     </div>
   );
 }
