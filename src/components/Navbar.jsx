@@ -18,9 +18,11 @@ function Navbar() {
       </div>
       
       <div className="nav-buttons">
-        <button className="cart-button">
-          🛒 Cart
-        </button>
+        <a href="/cart">
+          <button  className="cart-button">
+            🛒 Cart
+          </button>
+        </a>
         <button className="profile-button">
           👤 Profile
         </button>
