@@ -1,7 +1,7 @@
 import { Card, CardContent, CardActionArea, CardMedia, CardActions, Typography, IconButton } from '@mui/material';
 import * as React from 'react';
 import model_img from '../model_img.png';
-import { Share, Favorite } from '@mui/icons-material';
+import { Share, Favorite, ShoppingCart } from '@mui/icons-material';
 import "./dashboard.css";
 
 function Dashboard() {
@@ -28,6 +28,9 @@ function Dashboard() {
         <IconButton aria-label="share">
           <Share />
         </IconButton>
+        <IconButton aria-label="add to cart">
+          <ShoppingCart />
+        </IconButton>
       </CardActions>
     </Card>
     <Card sx = {{ maxWidth: 345 }}>
@@ -44,12 +47,15 @@ function Dashboard() {
           <Typography variant='h3'> $69.99 </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
+      <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
           <Favorite />
         </IconButton>
         <IconButton aria-label="share">
           <Share />
+        </IconButton>
+        <IconButton aria-label="add to cart">
+          <ShoppingCart />
         </IconButton>
       </CardActions>
     </Card>
