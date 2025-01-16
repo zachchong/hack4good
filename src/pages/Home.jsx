@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Categories from '../components/Categories';
 import Dashboard from '../pages/Dashboard';
+import ProductDetail from '../pages/ProductDetail';
+import CarouselSlide from '../components/CarouselSlide';
 
 function Home() {
   return (
@@ -9,6 +11,8 @@ function Home() {
       <Navbar />
       <Categories />
       <Dashboard />
+      
+      
     </div>
   );
 }
